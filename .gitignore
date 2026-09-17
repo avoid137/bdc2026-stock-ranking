@@ -1,0 +1,27 @@
+# ---- 数据（竞赛规程要求赛后销毁已下载数据，本仓库不含任何数据文件）----
+app/model/data/*.csv
+app/data/*
+*.csv
+
+# ---- 模型权重与训练产物 ----
+app/model/*.pth
+app/model/*.pkl
+app/model/*.txt
+app/model/log/
+app/model/config.json
+app/output/
+app/temp/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

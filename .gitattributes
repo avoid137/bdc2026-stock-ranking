@@ -1,0 +1,7 @@
+# 统一用 LF：脚本要在 Linux 容器里执行，CRLF 会导致 `bash: $'\r': command not found`
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+Dockerfile text eol=lf
